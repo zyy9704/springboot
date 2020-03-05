@@ -1,0 +1,19 @@
+
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active:
+    - dev
+
+logging:
+  config: logback.xml
+  level:
+    com.itszt.controller: trace
+
+
+url:
+
+  orderUrl: http://localhost:8002
+
