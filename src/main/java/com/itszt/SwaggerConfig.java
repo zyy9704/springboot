@@ -46,4 +46,18 @@ public class SwaggerConfig {
                 // 构建
                 .build();
     }
+
+//    private ApiInfo apiInfo() {
+//        return new ApiInfoBuilder()
+//                // 设置页面标题
+//                .title("Spring Boot集成Swagger2接口总览")
+//                // 设置接口描述
+//                .description("跟武哥一起学Spring Boot第06课")
+//                // 设置联系方式
+//                .contact("倪升武，" + "CSDN：http://blog.csdn.net/eson_15")
+//                // 设置版本
+//                .version("1.0")
+//                // 构建
+//                .build();
+//    }
 }
